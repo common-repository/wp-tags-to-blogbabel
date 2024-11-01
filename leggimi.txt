@@ -1,0 +1,63 @@
+=== WP Tags to Blogbabel ===
+Contributors: Davide Salerno
+Tags: tags, blogbabel
+Requires at least: 2.3.0
+Stable tag: Trunk
+
+Questo plugin converte i tags del sistema nativo di gestione degli stessi di Wordpress 2.3 e successivi in link alle corrispondenti pagine di BlogBabel.
+
+== Installazione ==
+
+1. Carica la cartella wp-tag-to-blogbabel con il suo contenuto dentro la cartella dei plugin della tua installazione di Wordpress wp-content/plugins directory
+2. Attiva il plugin dalla apposita sezione Plugin del pannello di amministrazione di Wordpress
+
+(facile come bere un bicchiere d'acqua, eh?)
+
+== Opzioni ==
+
+Tutte le opzioni sono modificabili andando nella sezione Opzioni -> Tags di BlogBabel del pannello di controllo di Wordpress
+
+1. Il testo che compare alla sinistra della lista dei tag può essere modificato cambiando il campo "Etichetta tags di Blogbabel".
+
+2. Attivando l'opzione "Vuoi aprire le pagine di BlogBabel in una nuova finestra?", come puoi ben intuire, quando si cliccherà su uno dei link ai tags di BlogBabel la corrispondente pagina verrà aperta in una nuova finestra.
+
+== Avanzate ==
+
+Se voi inserire i tags di Blogbabel in un punto particolare della pagina,
+devi disabilitare l'opzione "Inserisci i tag alla fine di ogni post?" e modificare il tema del tuo blog inserendo la chiamata alla funzione PHP 'tags2bb_get_tags_links()' all'interno del loop del tuo tema.
+
+== Domande frequenti == 
+
+= Funziona con tutte le versioni di Wordpress? =
+
+Questa versione funziona solo con WordPress 2.3.0 o superiori perchè sfrutta il nuovo sistema integrato di gestione dei tags di Wordpress
+
+= E se ho una versione precedente di Wordpress? =
+
+Se hai una versione di Wordpress alla 2.3 oppure non vuoi utilizzare il suo sistema integrato per la gestione dei tags allora ti devi essere perso l'ottimo plugin WP-Blogbabel (http://silentman.it/plugins/wp-blogbabel/) di Silentman.
+
+== Ringraziamenti ==
+
+Ok io sono un fannullone e non è tutta farina del mio sacco. Devo ringraziare...
+
+1. WP Tag to Technorati di Midrangeman (http://www.geekyramblings.org/plugins/wp-tags-to-technorati/)
+2. Google Ad Wrap di John Godley' (http://www.urbangiraffe.com/plugins/google_ad_wrap)
+3. SimpleTags di  Artur Ortega (http://www.broobles.com/scripts/simpletags)
+
+== Licenza ==
+   
+    Copyright 2008 by Davide Salerno <davide.salerno@gmail.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
